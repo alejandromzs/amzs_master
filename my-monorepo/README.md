@@ -32,52 +32,6 @@ Currently, to work with a specific sub-project, you would typically:
     ```
     Each sub-project will have its own `README.md` detailing its specific setup and commands once fully developed.
 
-### Working with the `ai-tools` (React) Subproject
-
-The `ai-tools` project is a React application created using Create React App.
-
-1.  **Navigate to the project directory:**
-    (Assuming you are in the `my-monorepo` root directory)
-    ```bash
-    cd subprojects/ai-tools
-    ```
-
-2.  **Install dependencies** (if you haven't already or if `package.json` changed):
-    ```bash
-    npm install
-    ```
-
-3.  **Run the development server:**
-    ```bash
-    npm start
-    ```
-    This will typically open the application in your default web browser at `http://localhost:3000`. The page will reload if you make edits.
-
-4.  **Build for production:**
-    ```bash
-    npm run build
-    ```
-    This creates an optimized build in the `my-monorepo/subprojects/ai-tools/build` directory. The main `index.html` in the repository root links to this build.
-
-### Future Considerations for Build/Deployment
-
-As the project grows, managing builds and deployments across multiple sub-projects can become complex. Here are some potential strategies and tools that could be adopted:
-
-*   **Custom Scripts:** Develop shell scripts (Bash, Python, etc.) in the root directory to automate common tasks across sub-projects (e.g., `build_all.sh`, `start_project.sh <project-name>`). These scripts could iterate through specified project directories and execute their respective build or run commands.
-*   **Configuration File for Selective Builds:** A configuration file (e.g., `projects.json` or a section in `package.json` if using Node.js-based tooling) could define which projects to include in a particular build or deployment. Scripts would then read this configuration.
-*   **Monorepo Management Tools:** For more robust solutions, consider dedicated monorepo tools. These tools offer advanced features like:
-    *   **Dependency Management:** Optimizing and sharing dependencies across projects.
-    *   **Task Running:** Efficiently running scripts (build, test, lint) across the monorepo or only on affected projects.
-    *   **Caching:** Speeding up builds by caching artifacts.
-    *   **Workspace Management:**
-    *   Examples:
-        *   [Lerna](https://lerna.js.org/) (popular in the JavaScript ecosystem)
-        *   [Nx](https://nx.dev/) (supports multiple frameworks, offers advanced features)
-        *   [Turborepo](https://turborepo.org/) (fast, efficient builds for JavaScript/TypeScript monorepos)
-        *   [Bazel](https://bazel.build/) (Google's build system, language-agnostic, powerful but can be complex to set up)
-
-The choice of approach will depend on the complexity and specific needs of the sub-projects as they evolve. For now, each sub-project should be managed independently within its own directory.
-
 ## Installation and Running the Monorepo
 
 Follow these steps to install and run the monorepo and its subprojects:
