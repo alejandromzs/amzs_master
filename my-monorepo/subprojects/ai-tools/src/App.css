@@ -1,0 +1,25 @@
+/* my-monorepo/subprojects/ai-tools/src/App.css */
+.App {
+    /* text-align: center; Remove default center alignment if not desired for the whole app */
+    font-family: Arial, sans-serif; /* Example global font */
+  }
+  
+  .App-header {
+    background-color: #282c34;
+    padding: 20px;
+    color: white;
+    text-align: center; /* Center header text */
+    margin-bottom: 20px;
+  }
+  
+  .App-header h1 {
+    margin: 0;
+    font-size: 2em;
+  }
+  
+  /* Removed .App-logo, @keyframes App-logo-spin, and .App-link styles as they are no longer used */
+  
+  main {
+    padding: 0 20px; /* Add some padding to the main content area */
+  }
+  
