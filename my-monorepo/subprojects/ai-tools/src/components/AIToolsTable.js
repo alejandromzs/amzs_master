@@ -55,6 +55,7 @@ const AIToolsTable = () => {
                         <th>Name</th>
                         <th>Pros</th>
                         <th>Cons</th>
+                        <th>Tags</th>
                         <th>Ranking</th>
                         <th>Type</th>
                     </tr>
@@ -66,6 +67,7 @@ const AIToolsTable = () => {
                             <td><a href={tool.url} target="_blank" rel="noopener noreferrer">{tool.name}</a></td>
                             <td>{Array.isArray(tool.pros) ? tool.pros.join(', ') : tool.pros}</td>
                             <td>{Array.isArray(tool.cons) ? tool.cons.join(', ') : tool.cons}</td>
+                            <td>{Array.isArray(tool.tags) ? tool.tags.join(', ') : ''}</td>
                             <td>{tool.ranking}</td>
                             <td>{tool.type}</td>
                         </tr>
