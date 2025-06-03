@@ -723,5 +723,45 @@
       "paid": "$10 por 1,000 créditos (1 pro image = 4 créditos)",
       "api": "Precios competitivos por imagen según modelo: FLUX.1 [pro] 5 cts/img, FLUX1.1 [pro] 4 cts/img"
     }
+  },
+  {
+    "id": "ideogram-ai",
+    "publishDate": "2024-08-01",
+    "name": "Ideogram AI",
+    "url": "https://ideogram.ai",
+    "pros": [
+      "Generación de imágenes con texto integrado y legible",
+      "Variedad de estilos: realista, 3D, anime, etc.",
+      "Herramienta Magic Prompt para mejorar prompts automáticamente",
+      "Remix para modificar imágenes existentes",
+      "Control de paletas de color y estilos",
+      "API disponible para integración en apps",
+      "App móvil para iOS (Android próximamente)",
+      "Interfaz fácil de usar, ideal para creadores y diseñadores"
+    ],
+    "cons": [
+      "Errores ocasionales en el texto generado (letras faltantes, etc.)",
+      "El plan gratuito es limitado en calidad y velocidad",
+      "Sistema de créditos puede ser confuso para algunos usuarios",
+      "App móvil solo disponible en iOS por ahora"
+    ],
+    "tags": [
+      "#image-generation",
+      "#text-in-image",
+      "#ai-art",
+      "#remix",
+      "#magic-prompt",
+      "#api-available",
+      "#mobile-app",
+      "#credit-based"
+    ],
+    "ranking": "N/A",
+    "type": "FREEMIUM",
+    "pricing": {
+      "free": "10 créditos lentos/día (hasta 40 imágenes), JPG comprimido, galería comunitaria",
+      "basic": "$8/mes, 400 créditos prioritarios/mes, PNG alta calidad, Magic Fill & Extend",
+      "plus": "$20/mes, 1,000 créditos prioritarios/mes, generación privada, paletas personalizadas",
+      "pro": "$60/mes, 3,000 créditos prioritarios/mes, generación masiva, ilimitado lento"
+    }
   }
 ]
