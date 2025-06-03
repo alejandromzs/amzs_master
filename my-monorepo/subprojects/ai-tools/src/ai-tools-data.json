@@ -641,5 +641,127 @@
     ],
     "ranking": "N/A",
     "type": "FREEMIUM"
+  },
+  {
+    "id": "lovable-dev",
+    "publishDate": "2024-08-01",
+    "name": "Lovable.dev",
+    "url": "https://lovable.dev",
+    "pros": [
+      "Generación de apps web desde texto natural",
+      "Integración nativa con Supabase y GitHub",
+      "Despliegue y preview con un clic",
+      "Propiedad total del código generado",
+      "Editor visual tipo Figma",
+      "Colaboración en tiempo real (multiplayer)",
+      "Soporte para dominios personalizados",
+      "Rápido para prototipos y MVPs"
+    ],
+    "cons": [
+      "Límites estrictos de mensajes en el plan gratuito",
+      "Complejidad limitada para casos muy avanzados",
+      "Puede requerir servicios externos para hosting o bases de datos avanzadas",
+      "Costos pueden aumentar con uso intensivo"
+    ],
+    "tags": [
+      "#code-generation",
+      "#full-stack",
+      "#prototyping",
+      "#deployment",
+      "#github-integration",
+      "#supabase-integration",
+      "#visual-editor",
+      "#no-code",
+      "#mvp",
+      "#team-collaboration"
+    ],
+    "ranking": "N/A",
+    "type": "FREEMIUM",
+    "pricing": {
+      "free": "5 mensajes/día, proyectos públicos ilimitados, despliegue y GitHub sync",
+      "starter": "$20/mes, 100 créditos, proyectos privados, dominios personalizados",
+      "pro": "$50/mes, 250 créditos, para equipos pequeños",
+      "scale": "$100+/mes, 500+ créditos, para equipos grandes",
+      "enterprise": "Precio personalizado, SSO, soporte dedicado"
+    }
+  },
+  {
+    "id": "flux-playground",
+    "publishDate": "2025-05-29",
+    "name": "FLUX Playground (BFL.AI)",
+    "url": "https://playground.bfl.ai/image/generate",
+    "pros": [
+      "Generación y edición de imágenes con texto e imagen de referencia",
+      "Modelos avanzados (FLUX.1 Kontext pro/max) con preservación de personajes y estilos",
+      "Edición local y por pasos, con baja latencia",
+      "Resultados fotorealistas y tipografía competitiva",
+      "200 créditos gratis al registrarse",
+      "Interfaz web fácil de usar, sin necesidad de integración técnica",
+      "Soporte para múltiples partners y API pública"
+    ],
+    "cons": [
+      "Puede generar artefactos visuales tras muchas ediciones",
+      "Comprensión limitada de idiomas distintos al inglés",
+      "Algunas instrucciones complejas pueden no seguirse fielmente",
+      "Requiere créditos para uso intensivo"
+    ],
+    "tags": [
+      "#image-generation",
+      "#image-editing",
+      "#text-to-image",
+      "#in-context-editing",
+      "#photorealism",
+      "#ai-art",
+      "#api-available",
+      "#credit-based",
+      "#multimodal"
+    ],
+    "ranking": "N/A",
+    "type": "FREEMIUM",
+    "pricing": {
+      "free": "200 créditos gratis al crear cuenta",
+      "paid": "$10 por 1,000 créditos (1 pro image = 4 créditos)",
+      "api": "Precios competitivos por imagen según modelo: FLUX.1 [pro] 5 cts/img, FLUX1.1 [pro] 4 cts/img"
+    }
+  },
+  {
+    "id": "ideogram-ai",
+    "publishDate": "2024-08-01",
+    "name": "Ideogram AI",
+    "url": "https://ideogram.ai",
+    "pros": [
+      "Generación de imágenes con texto integrado y legible",
+      "Variedad de estilos: realista, 3D, anime, etc.",
+      "Herramienta Magic Prompt para mejorar prompts automáticamente",
+      "Remix para modificar imágenes existentes",
+      "Control de paletas de color y estilos",
+      "API disponible para integración en apps",
+      "App móvil para iOS (Android próximamente)",
+      "Interfaz fácil de usar, ideal para creadores y diseñadores"
+    ],
+    "cons": [
+      "Errores ocasionales en el texto generado (letras faltantes, etc.)",
+      "El plan gratuito es limitado en calidad y velocidad",
+      "Sistema de créditos puede ser confuso para algunos usuarios",
+      "App móvil solo disponible en iOS por ahora"
+    ],
+    "tags": [
+      "#image-generation",
+      "#text-in-image",
+      "#ai-art",
+      "#remix",
+      "#magic-prompt",
+      "#api-available",
+      "#mobile-app",
+      "#credit-based"
+    ],
+    "ranking": "N/A",
+    "type": "FREEMIUM",
+    "pricing": {
+      "free": "10 créditos lentos/día (hasta 40 imágenes), JPG comprimido, galería comunitaria",
+      "basic": "$8/mes, 400 créditos prioritarios/mes, PNG alta calidad, Magic Fill & Extend",
+      "plus": "$20/mes, 1,000 créditos prioritarios/mes, generación privada, paletas personalizadas",
+      "pro": "$60/mes, 3,000 créditos prioritarios/mes, generación masiva, ilimitado lento"
+    }
   }
 ]
