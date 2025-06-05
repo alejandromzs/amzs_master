@@ -648,20 +648,20 @@
     "name": "Lovable.dev",
     "url": "https://lovable.dev",
     "pros": [
-      "Generación de apps web desde texto natural",
-      "Integración nativa con Supabase y GitHub",
-      "Despliegue y preview con un clic",
-      "Propiedad total del código generado",
-      "Editor visual tipo Figma",
-      "Colaboración en tiempo real (multiplayer)",
-      "Soporte para dominios personalizados",
-      "Rápido para prototipos y MVPs"
+      "Generation of web apps from natural text",
+      "Native integration with Supabase and GitHub",
+      "Deployment and preview with a click",
+      "Full ownership of generated code",
+      "Visual editor type Figma",
+      "Real-time collaboration (multiplayer)",
+      "Support for custom domains",
+      "Fast for prototypes and MVPs"
     ],
     "cons": [
-      "Límites estrictos de mensajes en el plan gratuito",
-      "Complejidad limitada para casos muy avanzados",
-      "Puede requerir servicios externos para hosting o bases de datos avanzadas",
-      "Costos pueden aumentar con uso intensivo"
+      "Strict message limits in the free plan",
+      "Limited complexity for very advanced cases",
+      "May require external services for hosting or advanced databases",
+      "Costs may increase with intensive use"
     ],
     "tags": [
       "#code-generation",
@@ -678,11 +678,11 @@
     "ranking": "N/A",
     "type": "FREEMIUM",
     "pricing": {
-      "free": "5 mensajes/día, proyectos públicos ilimitados, despliegue y GitHub sync",
-      "starter": "$20/mes, 100 créditos, proyectos privados, dominios personalizados",
-      "pro": "$50/mes, 250 créditos, para equipos pequeños",
-      "scale": "$100+/mes, 500+ créditos, para equipos grandes",
-      "enterprise": "Precio personalizado, SSO, soporte dedicado"
+      "free": "5 messages/day, unlimited public projects, deployment and GitHub sync",
+      "starter": "$20/month, 100 credits, private projects, custom domains",
+      "pro": "$50/month, 250 credits, for small teams",
+      "scale": "$100+/month, 500+ credits, for large teams",
+      "enterprise": "Custom pricing, SSO, dedicated support"
     }
   },
   {
@@ -691,19 +691,19 @@
     "name": "FLUX Playground (BFL.AI)",
     "url": "https://playground.bfl.ai/image/generate",
     "pros": [
-      "Generación y edición de imágenes con texto e imagen de referencia",
-      "Modelos avanzados (FLUX.1 Kontext pro/max) con preservación de personajes y estilos",
-      "Edición local y por pasos, con baja latencia",
-      "Resultados fotorealistas y tipografía competitiva",
-      "200 créditos gratis al registrarse",
-      "Interfaz web fácil de usar, sin necesidad de integración técnica",
-      "Soporte para múltiples partners y API pública"
+      "Image generation and editing with text and reference image",
+      "Advanced models (FLUX.1 Kontext pro/max) with character and style preservation",
+      "Local and step-by-step editing, with low latency",
+      "Realistic and competitive typography",
+      "200 credits for free registration",
+      "Easy-to-use web interface, no technical integration required",
+      "Support for multiple partners and public API"
     ],
     "cons": [
-      "Puede generar artefactos visuales tras muchas ediciones",
-      "Comprensión limitada de idiomas distintos al inglés",
-      "Algunas instrucciones complejas pueden no seguirse fielmente",
-      "Requiere créditos para uso intensivo"
+      "May generate visual artifacts after many edits",
+      "Limited understanding of languages other than English",
+      "Some complex instructions may not be followed faithfully",
+      "Requires credits for intensive use"
     ],
     "tags": [
       "#image-generation",
@@ -719,9 +719,9 @@
     "ranking": "N/A",
     "type": "FREEMIUM",
     "pricing": {
-      "free": "200 créditos gratis al crear cuenta",
-      "paid": "$10 por 1,000 créditos (1 pro image = 4 créditos)",
-      "api": "Precios competitivos por imagen según modelo: FLUX.1 [pro] 5 cts/img, FLUX1.1 [pro] 4 cts/img"
+      "free": "200 credits for free registration",
+      "paid": "$10 for 1,000 credits (1 pro image = 4 credits)",
+      "api": "Competitive pricing per image based on model: FLUX.1 [pro] 5 cts/img, FLUX1.1 [pro] 4 cts/img"
     }
   },
   {
@@ -730,20 +730,20 @@
     "name": "Ideogram AI",
     "url": "https://ideogram.ai",
     "pros": [
-      "Generación de imágenes con texto integrado y legible",
-      "Variedad de estilos: realista, 3D, anime, etc.",
-      "Herramienta Magic Prompt para mejorar prompts automáticamente",
-      "Remix para modificar imágenes existentes",
-      "Control de paletas de color y estilos",
-      "API disponible para integración en apps",
-      "App móvil para iOS (Android próximamente)",
-      "Interfaz fácil de usar, ideal para creadores y diseñadores"
+      "Image generation with integrated and legible text",
+      "Variety of styles: realistic, 3D, anime, etc.",
+      "Magic Prompt tool for automatically improving prompts",
+      "Remix for modifying existing images",
+      "Color palette and style control",
+      "API available for integration in apps",
+      "Mobile app for iOS (Android coming soon)",
+      "Easy-to-use interface, ideal for creators and designers"
     ],
     "cons": [
-      "Errores ocasionales en el texto generado (letras faltantes, etc.)",
-      "El plan gratuito es limitado en calidad y velocidad",
-      "Sistema de créditos puede ser confuso para algunos usuarios",
-      "App móvil solo disponible en iOS por ahora"
+      "Occasional text generation errors (missing letters, etc.)",
+      "Free plan is limited in quality and speed",
+      "Credit system may be confusing for some users",
+      "Mobile app only available on iOS for now"
     ],
     "tags": [
       "#image-generation",
@@ -758,10 +758,365 @@
     "ranking": "N/A",
     "type": "FREEMIUM",
     "pricing": {
-      "free": "10 créditos lentos/día (hasta 40 imágenes), JPG comprimido, galería comunitaria",
-      "basic": "$8/mes, 400 créditos prioritarios/mes, PNG alta calidad, Magic Fill & Extend",
-      "plus": "$20/mes, 1,000 créditos prioritarios/mes, generación privada, paletas personalizadas",
-      "pro": "$60/mes, 3,000 créditos prioritarios/mes, generación masiva, ilimitado lento"
+      "free": "10 slow credits/day (up to 40 images), JPG compressed, community gallery",
+      "basic": "$8/month, 400 priority credits/month, PNG high quality, Magic Fill & Extend",
+      "plus": "$20/month, 1,000 priority credits/month, private generation, personalized palettes",
+      "pro": "$60/month, 3,000 priority credits/month, massive generation, unlimited slow"
+    }
+  },
+  {
+    "id": "n8n",
+    "publishDate": "2019-10-01",
+    "name": "n8n",
+    "url": "https://n8n.io",
+    "pros": [
+      "self-hosting n8n with docker",
+      "Complex workflow automation without code",
+      "Over 400 pre-built integrations",
+      "Easy-to-use drag-and-drop visual editor",
+      "Support for custom code (JavaScript, Python)",
+      "Self-hosting and cloud options",
+      "Open source and extensible",
+      "Advanced credential and user management",
+      "Large community and extensive documentation"
+    ],
+    "cons": [
+      "Learning curve for advanced workflows",
+      "Performance may be affected with large volumes in the cloud",
+      "Some advanced features only in paid plans",
+      "The interface can be overwhelming for beginners"
+    ],
+    "tags": [
+      "#workflow-automation",
+      "#no-code",
+      "#open-source",
+      "#integration",
+      "#self-hosting",
+      "#cloud",
+      "#api",
+      "#data-transformation",
+      "#ai-agent"
+    ],
+    "ranking": "N/A",
+    "type": "FREEMIUM",
+    "pricing": {
+      "free": "Self-hosted unlimited, 5 active workflows and 2,500 executions/month in cloud",
+      "starter": "$20/month, 5 active workflows, 2,500 executions/month, unlimited users",
+      "pro": "$50/month, 15 active workflows, 10,000 executions/month, advanced features",
+      "enterprise": "Custom, unlimited, dedicated support, SSO, full control"
+    }
+  },
+  {
+    "id": "hostinger-horizons",
+    "publishDate": "2025-03-04",
+    "name": "Hostinger Horizons",
+    "url": "https://horizons.hostinger.com/",
+    "pros": [
+      "No coding required to build web apps and websites",
+      "AI-powered: chat to build, edit, and deploy",
+      "One-click deployment with hosting, domain, and email included",
+      "Supports 80+ languages and voice/image input",
+      "Visual editor and real-time preview",
+      "Full code ownership and export",
+      "24/7 multilingual support",
+      "Integrates with Stripe, Supabase, and more",
+      "30-day money-back guarantee"
+    ],
+    "cons": [
+      "Limited deep integrations (for now)",
+      "Customization relies on AI refinement, not manual edits",
+      "Best for MVPs and simple apps, not complex systems yet",
+      "Message-based pricing may not suit all users"
+    ],
+    "tags": [
+      "#no-code",
+      "#ai-app-builder",
+      "#web-app",
+      "#website-builder",
+      "#one-click-deploy",
+      "#hosting-included",
+      "#multilingual",
+      "#mvp",
+      "#startup-tools"
+    ],
+    "ranking": "N/A",
+    "type": "FREEMIUM",
+    "pricing": {
+      "explorer": "$9.99/month, 50 messages/month, 50 projects, hosting included",
+      "starter": "$19.99/month, 100 messages/month, 50 projects, hosting included",
+      "hobbyist": "$49.99/month, 250 messages/month, 50 projects, hosting included",
+      "hustler": "$99.99/month, 500 messages/month, 50 projects, hosting included"
+    }
+  },
+  {
+    "id": "deep-live-cam",
+    "publishDate": "2025-05-04",
+    "name": "Deep Live Cam",
+    "url": "https://deeplivecam.net/",
+    "pros": [
+      "Real-time face swapping with a single image",
+      "One-click video deepfake generation",
+      "Cross-platform support: CPU, NVIDIA CUDA, Apple Silicon, DirectML, OpenVINO",
+      "Open-source and completely free",
+      "Local processing with no personal data collection",
+      "Built-in controls to prevent inappropriate content",
+      "Active community providing ongoing support and improvements",
+      "User-friendly interface for all experience levels",
+      "Optimized for fast performance, especially on NVIDIA GPUs with CUDA"
+    ],
+    "cons": [
+      "Requires technical knowledge for installation and setup",
+      "Potential ethical and legal implications of using deepfakes",
+      "Risk of malicious use for identity theft and fraud",
+      "Depends on powerful hardware for optimal performance"
+    ],
+    "tags": [
+      "#deepfake",
+      "#face-swap",
+      "#AI",
+      "#open-source",
+      "#local-processing",
+      "#cross-platform",
+      "#video",
+      "#streaming",
+      "#security"
+    ],
+    "ranking": "N/A",
+    "type": "FREE",
+    "pricing": {
+      "free": "Completely free and open-source"
+    }
+  },
+  {
+    "id": "flux-kontext",
+    "publishDate": "2025-05-29",
+    "name": "FLUX Kontext",
+    "url": "https://fal.ai/flux-kontext",
+    "pros": [
+      "Context-aware image generation and editing (text + image input)",
+      "Advanced local editing and style transfer",
+      "Maintains character and object consistency across edits",
+      "Fast, interactive, and iterative workflow",
+      "Supports multimodal input: text, sketches, reference images",
+      "Professional quality output and photorealism",
+      "API available for integration",
+      "Enterprise-grade security and privacy",
+      "Open-weight model (dev) for research and customization"
+    ],
+    "cons": [
+      "May generate visual artifacts after many iterative edits",
+      "Occasional prompt misinterpretation in complex scenarios",
+      "Video generation not supported (image only)",
+      "Some advanced features require API or partner access"
+    ],
+    "tags": [
+      "#image-generation",
+      "#context-aware",
+      "#in-context-editing",
+      "#ai-art",
+      "#style-transfer",
+      "#api-available",
+      "#multimodal",
+      "#professional-quality",
+      "#open-weight"
+    ],
+    "ranking": "N/A",
+    "type": "FREEMIUM",
+    "pricing": {
+      "free": "Free online demo and limited usage via partner platforms",
+      "pro": "API and partner access, pay-per-use or subscription (see fal.ai for details)",
+      "dev": "Open-weight model available for research and self-hosting (private beta)"
+    }
+  },
+  {
+    "id": "minimax-api-platform",
+    "publishDate": "2025-01-04",
+    "name": "MiniMax API Platform",
+    "url": "https://www.agent.minimax.io/",
+    "pros": [
+      "Comprehensive suite of AI models across text, image, video, audio, and music",
+      "Competitive pricing with pay-as-you-go model and free credits upon sign-up",
+      "Supports rapid voice cloning with as little as 5 seconds of audio",
+      "High-performance models optimized for cost efficiency",
+      "Cross-platform compatibility with various hardware configurations",
+      "Open-source models with commercial use licenses",
+      "Active community and ongoing support",
+      "User-friendly interface suitable for all experience levels"
+    ],
+    "cons": [
+      "Requires technical knowledge for installation and setup",
+      "Potential ethical and legal implications in the use of deepfakes",
+      "Risk of misuse for identity theft and fraud",
+      "Dependence on powerful hardware for optimal performance"
+    ],
+    "tags": [
+      "#AI",
+      "#multimodal",
+      "#text-generation",
+      "#image-generation",
+      "#video-generation",
+      "#audio-generation",
+      "#music-generation",
+      "#voice-cloning",
+      "#open-source",
+      "#API"
+    ],
+    "ranking": "N/A",
+    "type": "FREEMIUM",
+    "pricing": {
+      "chat_completion_api": {
+        "MiniMax-Text-01": {
+          "input": "$0.20 per 1M tokens",
+          "output": "$1.10 per 1M tokens"
+        },
+        "abab6.5s": {
+          "input_output": "$0.20 per 1M tokens"
+        }
+      },
+      "text_to_speech_api": {
+        "speech-02-hd / speech-01-hd": "$100 per 1M characters (limited-time $50)",
+        "speech-02-turbo / speech-01-turbo": "$50 per 1M characters (limited-time $30)"
+      },
+      "voice_cloning": {
+        "rapid_voice_cloning": "$15 per voice (limited-time $3)",
+        "hi_definition_voice_cloning": "$3000 per clone"
+      },
+      "video_generation_api": {
+        "T2V-01, I2V-01, I2V-01-live": "$0.43 per 6-second video clip",
+        "S2V-01": "$0.65 per 6-second video clip"
+      },
+      "music_generation_api": {
+        "Music-01": "$0.03 per up to 60-second music"
+      },
+      "image_generation_api": {
+        "image-01": "$0.0035 per image"
+      }
+    }
+  },
+  {
+    "id": "onlook",
+    "publishDate": "2024-05-28",
+    "name": "Onlook",
+    "url": "https://onlook.com",
+    "pros": [
+      "Open-source visual-first code editor for React apps",
+      "AI-powered design, code, and prototyping in Next.js + TailwindCSS",
+      "Figma-like UI for real-time visual editing and preview",
+      "Start from text, image, Figma, or GitHub repo",
+      "Drag-and-drop layout and direct DOM manipulation",
+      "Real-time team collaboration and commenting",
+      "Supports custom domains and instant deployment",
+      "Integrates with Supabase, Drizzle, and more",
+      "Active community and Apache-2.0 license"
+    ],
+    "cons": [
+      "Still under active development (web version in preview)",
+      "Best experience with Next.js + TailwindCSS projects",
+      "Some advanced features may require technical knowledge",
+      "Limited to React/Next.js stack for now"
+    ],
+    "tags": [
+      "#open-source",
+      "#visual-editor",
+      "#ai-code-generation",
+      "#react",
+      "#nextjs",
+      "#tailwindcss",
+      "#prototyping",
+      "#figma-alternative",
+      "#team-collaboration",
+      "#low-code"
+    ],
+    "ranking": "N/A",
+    "type": "FREE",
+    "pricing": {
+      "free": "Completely free and open-source (Apache-2.0 license)"
+    }
+  },
+  {
+    "id": "napkin-ai",
+    "publishDate": "2022-08-17",
+    "name": "Napkin AI",
+    "url": "https://www.napkin.ai/",
+    "pros": [
+      "Instantly turns text into professional visuals (diagrams, charts, mind maps, etc.)",
+      "No design skills or prompting required",
+      "Fully editable visuals with icons, connectors, colors, and fonts",
+      "Exports to PPT, PNG, PDF, SVG; easy sharing and embedding",
+      "Supports 60+ languages for visual generation",
+      "Team collaboration with real-time editing and comments",
+      "Smart AI suggestions for best visual format",
+      "User-friendly interface and fast processing",
+      "Free plan available; generous beta access to Pro features"
+    ],
+    "cons": [
+      "Limited customization for advanced design needs",
+      "Occasional AI misinterpretation of context",
+      "Editing and generation only on desktop (mobile view only)",
+      "Some advanced features require paid plans"
+    ],
+    "tags": [
+      "#text-to-visual",
+      "#diagramming",
+      "#ai-visualization",
+      "#flowcharts",
+      "#mindmaps",
+      "#infographics",
+      "#team-collaboration",
+      "#content-creation",
+      "#presentation-tools"
+    ],
+    "ranking": "N/A",
+    "type": "FREEMIUM",
+    "pricing": {
+      "free": "500 AI credits/week, unlimited editing, PNG/PDF export, Napkin branding",
+      "plus": "$9/user/month, 10,000 AI credits/month, PPT/SVG export, custom styles, no branding, team management",
+      "pro": "$22/user/month, 30,000 AI credits/month, exclusive designs, unlimited custom styles, font uploads, team management, credit top-ups"
+    }
+  },
+  {
+    "id": "gamma-app",
+    "publishDate": "2021-09-01",
+    "name": "Gamma",
+    "url": "https://gamma.app",
+    "pros": [
+      "AI-powered creation of presentations, documents, and web pages",
+      "User-friendly interface, easy to navigate",
+      "Saves time on slide and content creation",
+      "One-click restyling and polish for professional results",
+      "Flexible templates and brand-aligned design options",
+      "Real-time collaboration and commenting",
+      "Supports embedding videos, charts, and spreadsheets",
+      "Built-in analytics to track engagement",
+      "Multi-device compatibility and mobile-friendly content",
+      "Export to PDF and PowerPoint (PPT)"
+    ],
+    "cons": [
+      "Limited variety in theme options",
+      "Advanced tools have a learning curve",
+      "Occasional lag with large projects",
+      "No offline editing feature",
+      "No direct export to Google Slides",
+      "Some features require paid plans",
+      "Basic themes and limited animation options"
+    ],
+    "tags": [
+      "#presentation-maker",
+      "#ai-content-generation",
+      "#webpage-builder",
+      "#real-time-collaboration",
+      "#analytics",
+      "#templates",
+      "#no-code",
+      "#export-options",
+      "#team-collaboration"
+    ],
+    "ranking": "N/A",
+    "type": "FREEMIUM",
+    "pricing": {
+      "free": "400 AI credits at signup, basic features, unlimited users, export to PDF/PPT, Gamma branding",
+      "plus": "$10/user/month, unlimited AI use, removes Gamma branding, priority support, 400 credits/month",
+      "pro": "$20/user/month, advanced AI, custom domains, detailed analytics, up to 30 slides at once, custom fonts, unlimited AI, all Plus features"
     }
   }
 ]
