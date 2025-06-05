@@ -6,6 +6,7 @@ import styles from './AIToolsTable.module.css'; // Optional: for CSS Modules
 const AIToolsTable = () => {
     const [tools, setTools] = useState([]);
     const [currentPage, setCurrentPage] = useState(1);
+    const [filter, setFilter] = useState('');
     const itemsPerPage = 20;
 
     useEffect(() => {
@@ -21,15 +22,39 @@ const AIToolsTable = () => {
         setTools(sortedData);
     }, []);
 
+    // Filter logic (search all columns)
+    const filterTools = (tools, filter) => {
+        if (!filter.trim()) return tools;
+        const lower = filter.toLowerCase();
+        return tools.filter(tool => {
+            const values = [
+                tool.name,
+                Array.isArray(tool.pros) ? tool.pros.join(' ') : tool.pros,
+                Array.isArray(tool.cons) ? tool.cons.join(' ') : tool.cons,
+                Array.isArray(tool.tags) ? tool.tags.join(' ') : tool.tags,
+                tool.ranking,
+                tool.type,
+                tool.publishDate
+            ];
+            return values.some(val => val && val.toString().toLowerCase().includes(lower));
+        });
+    };
+
+    const filteredTools = filterTools(tools, filter);
+
     // Pagination logic
     const indexOfLastTool = currentPage * itemsPerPage;
     const indexOfFirstTool = indexOfLastTool - itemsPerPage;
-    const currentTools = tools.slice(indexOfFirstTool, indexOfLastTool);
-    const totalPages = Math.ceil(tools.length / itemsPerPage);
+    const currentTools = filteredTools.slice(indexOfFirstTool, indexOfLastTool);
+    const totalPages = Math.ceil(filteredTools.length / itemsPerPage);
 
-    // const paginate = (pageNumber) => setCurrentPage(pageNumber); // Not used in current button setup
     const nextPage = () => setCurrentPage(prev => (prev < totalPages ? prev + 1 : prev));
     const prevPage = () => setCurrentPage(prev => (prev > 1 ? prev - 1 : prev));
+
+    // Reset to page 1 when filter changes
+    useEffect(() => {
+        setCurrentPage(1);
+    }, [filter]);
 
     // Basic date formatter (can be improved)
     const formatDate = (dateString) => {
@@ -47,7 +72,16 @@ const AIToolsTable = () => {
 
     return (
         <div className={styles.tableContainer}>
-            <h2>AI Tools List</h2>
+            <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
+                <h2>AI Tools List</h2>
+                <input
+                    type="text"
+                    placeholder="Filter tools..."
+                    value={filter}
+                    onChange={e => setFilter(e.target.value)}
+                    style={{ marginLeft: 16, padding: '6px 10px', fontSize: 16, minWidth: 220 }}
+                />
+            </div>
             <table>
                 <thead>
                     <tr>
