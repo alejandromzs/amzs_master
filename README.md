@@ -2,6 +2,27 @@
 * This repository hosts multiple sub-projects, managed in a monorepo structure. 
 * The main `index.html` file provides a dashboard to navigate to these projects.
 
+## 🚀 Quick Start
+
+If you just want to get up and running quickly:
+
+```bash
+# Clone and navigate to the project
+git clone <REPOSITORY_URL>
+cd amzs-master
+
+# Install all dependencies
+npm run install:all
+
+# Build all projects
+npm run build:all
+
+# Serve the monorepo
+npm run serve
+```
+
+Then open [http://localhost:5500/index.html](http://localhost:5500/index.html) in your browser.
+
 ## Sub-projects
 - The sub-projects are located in the `subprojects` directory. Each sub-project is intended to be somewhat independent, allowing for different technologies and development workflows.
 
@@ -12,25 +33,7 @@
 ## Managing Sub-projects
 
 The goal is to allow developers to work on individual sub-projects and to selectively build or deploy them.
-
-### Current Approach (Manual)
-
-Currently, to work with a specific sub-project, you would typically:
-
-1.  Navigate to its directory:
-    ```bash
-    cd subprojects/ai-tools 
-    ```
-    (Or `cd subprojects/backend-services`, `cd subprojects/vue-ui` for other projects)
-2.  Run its specific commands (e.g., for installing dependencies, starting a development server, or building):
-    ```bash
-    npm install  # Example for a Node.js based project
-    npm start    # Example
-    # or
-    # yarn build # Example
-    ```
-    Each sub-project will have its own `README.md` detailing its specific setup and commands once fully developed.
-
+ 
 ## Installation and Running the Monorepo
 
 Follow these steps to install and run the monorepo and its subprojects:
@@ -40,45 +43,114 @@ Follow these steps to install and run the monorepo and its subprojects:
 ```bash
 # Clone this repository (adjust the URL if needed)
 git clone <REPOSITORY_URL>
-cd amzs-monorepo
+cd amzs-master
 ```
 
-### 2. Build the React application (AI Tools)
+### 2. Install dependencies
+
+Install all dependencies for the monorepo and its subprojects:
 
 ```bash
-cd subprojects/ai-tools
-npm install           # Install dependencies
-npm run build         # Generate the build folder with static files
-cd ../../            # Return to the monorepo root
+npm run install:all
 ```
 
-> **Note:** The `package.json` file in AI Tools is already configured with the `homepage` property so the build works correctly from the main dashboard.
-
-### 3. Serve the monorepo with a static server
-
-To make the dashboard (`index.html`) and the builds of the subprojects accessible from the browser, use a static server from the root of the monorepo. You can use [`serve`](https://www.npmjs.com/package/serve) or any other global static server:
+Or install dependencies for specific subprojects:
 
 ```bash
-npm install -g serve
-serve . -l 5500
+npm run install:ai-tools    # Install AI Tools dependencies
+npm run install:backend     # Install Backend dependencies  
+npm run install:vue         # Install Vue UI dependencies
 ```
 
-This will serve the entire monorepo at [http://localhost:5500/index.html](http://localhost:5500/index.html). From there you can navigate to the subprojects, including the already built React app.
+### 3. Development Workflow
 
-### 4. (Optional) Work with other subprojects
+#### Start development servers:
 
-Each subproject may have its own workflow. Check the `README.md` in each subfolder for specific instructions.
+```bash
+# Start AI Tools development server (default)
+npm run dev
 
-- **Backend Services:**
-  - Location: `subprojects/backend-services/`
-  - (Add instructions here when the backend is implemented)
+# Start all development servers concurrently
+npm run dev:all
 
-- **Vue UI:**
-  - Location: `subprojects/vue-ui/`
-  - (Add instructions here when the UI is implemented)
+# Start specific subproject development servers
+npm run dev:ai-tools        # Start React development server
+npm run dev:backend         # Start Backend development server
+npm run dev:vue             # Start Vue development server
+```
 
-### 5. Monorepo structure
+#### Build projects:
 
+```bash
+# Build AI Tools (default)
+npm run build
+
+# Build all projects
+npm run build:all
+
+# Build specific projects
+npm run build:ai-tools      # Build React app
+npm run build:backend       # Build Backend services
+npm run build:vue           # Build Vue UI
+```
+
+### 4. Serve the monorepo
+
+For production serving (builds first, then serves):
+
+```bash
+npm run serve
+```
+
+For development serving (serves current state):
+
+```bash
+npm run serve:dev
+```
+
+This will serve the entire monorepo at [http://localhost:5500/index.html](http://localhost:5500/index.html). From there you can navigate to the subprojects, including the built React app.
+
+### 5. Additional Commands
+
+#### Testing:
+```bash
+# Run all tests
+npm run test:all
+
+# Run tests for specific projects
+npm run test:ai-tools      # Test React app
+npm run test:backend       # Test Backend services
+npm run test:vue           # Test Vue UI
+```
+
+#### Cleaning:
+```bash
+# Clean all projects
+npm run clean
+
+# Clean specific projects
+npm run clean:ai-tools     # Remove node_modules and build from AI Tools
+npm run clean:backend      # Remove node_modules and dist from Backend
+npm run clean:vue          # Remove node_modules and dist from Vue UI
+```
+
+### 6. Available npm scripts
+
+| Command | Description |
+|---------|-------------|
+| `npm run install:all` | Install dependencies for all subprojects |
+| `npm run dev` | Start AI Tools development server |
+| `npm run dev:all` | Start all development servers concurrently |
+| `npm run build` | Build AI Tools |
+| `npm run build:all` | Build all projects |
+| `npm run serve` | Build AI Tools and serve the monorepo |
+| `npm run serve:dev` | Serve the monorepo without building |
+| `npm run test:all` | Run tests for all projects |
+| `npm run clean` | Clean all projects |
+
+### 7. Monorepo structure
+
+- `package.json` — Root monorepo configuration
 - `index.html` — Main dashboard
 - `style.css` — Global dashboard styles
 - `subprojects/ai-tools/` — React App (AI Tools)
@@ -88,7 +160,6 @@ Each subproject may have its own workflow. Check the `README.md` in each subfold
 ---
 
 Common issues:
-- If you see `Cannot GET /subprojects/ai-tools/build/index.html`, make sure you have run the React build and are serving the monorepo root.
-- If you modify the React app, remember to run `npm run build` again in `subprojects/ai-tools`.
-
-Done! Now anyone can install and run the monorepo by following these steps.
+- If you see `Cannot GET /subprojects/ai-tools/build/index.html`, make sure you have run `npm run build` and are serving the monorepo root.
+- If you modify the React app, remember to run `npm run build` again.
+- Use `npm run dev:ai-tools` for development with hot reloading.

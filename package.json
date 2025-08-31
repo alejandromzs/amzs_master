@@ -1,0 +1,50 @@
+{
+  "name": "amzs-master",
+  "version": "1.0.0",
+  "description": "AMZS Master Monorepo - A collection of subprojects including AI Tools, Backend Services, and Vue UI",
+  "private": true,
+  "workspaces": [
+    "subprojects/*"
+  ],
+  "scripts": {
+    "install:all": "npm install && npm run install:subprojects",
+    "install:subprojects": "npm run install:ai-tools && npm run install:backend && npm run install:vue",
+    "install:ai-tools": "cd subprojects/ai-tools && npm install",
+    "install:backend": "cd subprojects/backend-services && npm install",
+    "install:vue": "cd subprojects/vue-ui && npm install",
+    "dev": "npm run dev:ai-tools",
+    "dev:all": "concurrently \"npm run dev:ai-tools\" \"npm run dev:backend\" \"npm run dev:vue\"",
+    "dev:ai-tools": "cd subprojects/ai-tools && npm start",
+    "dev:backend": "cd subprojects/backend-services && npm run dev",
+    "dev:vue": "cd subprojects/vue-ui && npm run dev",
+    "build": "npm run build:ai-tools",
+    "build:all": "npm run build:ai-tools && npm run build:backend && npm run build:vue",
+    "build:ai-tools": "cd subprojects/ai-tools && npm run build",
+    "build:backend": "cd subprojects/backend-services && npm run build",
+    "build:vue": "cd subprojects/vue-ui && npm run build",
+    "serve": "npm run build:ai-tools && npx serve . -l 5500",
+    "serve:dev": "npx serve . -l 5500",
+    "clean": "npm run clean:ai-tools && npm run clean:backend && npm run clean:vue",
+    "clean:ai-tools": "cd subprojects/ai-tools && rm -rf node_modules build",
+    "clean:backend": "cd subprojects/backend-services && rm -rf node_modules dist",
+    "clean:vue": "cd subprojects/vue-ui && rm -rf node_modules dist",
+    "test": "npm run test:ai-tools",
+    "test:all": "npm run test:ai-tools && npm run test:backend && npm run test:vue",
+    "test:ai-tools": "cd subprojects/ai-tools && npm test",
+    "test:backend": "cd subprojects/backend-services && npm test",
+    "test:vue": "cd subprojects/vue-ui && npm test"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2",
+    "serve": "^14.2.1"
+  },
+  "keywords": [
+    "monorepo",
+    "react",
+    "vue",
+    "backend",
+    "ai-tools"
+  ],
+  "author": "AMZS Team",
+  "license": "MIT"
+}

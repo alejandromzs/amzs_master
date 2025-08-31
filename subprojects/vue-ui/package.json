@@ -1,0 +1,21 @@
+{
+  "name": "vue-ui",
+  "version": "1.0.0",
+  "description": "Vue.js UI for AMZS Master",
+  "private": true,
+  "scripts": {
+    "dev": "echo 'Vue development server not yet implemented'",
+    "build": "echo 'Vue build not yet implemented'",
+    "test": "echo 'Vue tests not yet implemented'",
+    "serve": "echo 'Vue serve not yet implemented'"
+  },
+  "dependencies": {},
+  "devDependencies": {},
+  "keywords": [
+    "vue",
+    "ui",
+    "frontend"
+  ],
+  "author": "AMZS Team",
+  "license": "MIT"
+}
