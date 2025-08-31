@@ -1,0 +1,1122 @@
+[
+  {
+    "id": "jules-ai-assistant",
+    "publishDate": "2024-07-31",
+    "name": "Jules (Google AI Assistant)",
+    "url": "https://jules.google.com",
+    "pros": [
+      "Software engineering focus"
+    ],
+    "cons": [],
+    "tags": [
+      "#code-generation",
+      "#context-dependent",
+      "#requires-internet",
+      "#task-automation",
+      "#tool-integration"
+    ],
+    "ranking": "N/A",
+    "type": "Service"
+  },
+  {
+    "id": "aistudio-apps",
+    "publishDate": "2023-08-01",
+    "name": "Google AI Studio - App Hub",
+    "url": "https://aistudio.google.com/apps",
+    "pros": [
+      "Build with Google models"
+    ],
+    "cons": [
+      "Usage limits on free tier"
+    ],
+    "tags": [
+      "#ai-app-builder",
+      "#api-integration",
+      "#generative-ai",
+      "#learning-curve",
+      "#requires-google-account"
+    ],
+    "ranking": "N/A",
+    "type": "FREEMIUM"
+  },
+  {
+    "id": "aistudio-live",
+    "publishDate": "2023-08-01",
+    "name": "Google AI Studio - Live Features",
+    "url": "https://aistudio.google.com",
+    "pros": [
+      "Integrated in AI Studio"
+    ],
+    "cons": [
+      "Depends on model capabilities"
+    ],
+    "tags": [
+      "#collaborative-features",
+      "#feature-specific",
+      "#model-streaming",
+      "#not-standalone-tool",
+      "#real-time-interaction"
+    ],
+    "ranking": "N/A",
+    "type": "FREEMIUM"
+  },
+  {
+    "id": "aistudio-gen-media",
+    "publishDate": "2023-12-01",
+    "name": "Google AI Studio - Generative Media (ImageFX, MusicFX, etc.)",
+    "url": "https://aistudio.google.com",
+    "pros": [
+      "Powered by Imagen, MusicLM etc."
+    ],
+    "cons": [
+      "Potential usage costs for high volume"
+    ],
+    "tags": [
+      "#beta-features",
+      "#image-generation",
+      "#music-generation",
+      "#requires-google-account",
+      "#video-generation"
+    ],
+    "ranking": "N/A",
+    "type": "FREEMIUM"
+  },
+  {
+    "id": "openai-chatgpt",
+    "publishDate": "2022-11-30",
+    "name": "OpenAI ChatGPT",
+    "url": "https://chat.openai.com",
+    "pros": [
+      "Versatile, wide knowledge base"
+    ],
+    "cons": [
+      "Free version may have delays"
+    ],
+    "tags": [
+      "#can-be-verbose",
+      "#code-generation",
+      "#conversational-ai",
+      "#factual-errors-possible",
+      "#writing-assistant"
+    ],
+    "ranking": "N/A",
+    "type": "FREEMIUM"
+  },
+  {
+    "id": "google-gemini-app",
+    "publishDate": "2024-02-08",
+    "name": "Google Gemini (App)",
+    "url": "https://gemini.google.com",
+    "pros": [
+      "Strong reasoning capabilities"
+    ],
+    "cons": [],
+    "tags": [
+      "#conversational-ai",
+      "#feature-rollouts-ongoing",
+      "#integration-with-google-services",
+      "#multimodal-input",
+      "#newer-than-chatgpt"
+    ],
+    "ranking": "N/A",
+    "type": "FREEMIUM"
+  },
+  {
+    "id": "microsoft-copilot",
+    "publishDate": "2023-02-07",
+    "name": "Microsoft Copilot",
+    "url": "https://copilot.microsoft.com",
+    "pros": [
+      "Access to newer GPT models"
+    ],
+    "cons": [],
+    "tags": [
+      "#conversational-ai",
+      "#image-generation-free",
+      "#microsoft-ecosystem-focus",
+      "#search-integration",
+      "#usage-limits-per-session"
+    ],
+    "ranking": "N/A",
+    "type": "FREEMIUM"
+  },
+  {
+    "id": "anthropic-claude",
+    "publishDate": "2023-07-11",
+    "name": "Anthropic Claude",
+    "url": "https://claude.ai",
+    "pros": [
+      "Focus on helpfulness and safety"
+    ],
+    "cons": [],
+    "tags": [
+      "#availability-restrictions",
+      "#constitutional-ai",
+      "#long-context-window",
+      "#newer-than-some-competitors",
+      "#writing-analysis"
+    ],
+    "ranking": "N/A",
+    "type": "FREEMIUM"
+  },
+  {
+    "id": "huggingface-platform",
+    "publishDate": "2016-01-01",
+    "name": "Hugging Face Platform",
+    "url": "https://huggingface.co",
+    "pros": [
+      "Access to vast number of models and tools"
+    ],
+    "cons": [
+      "Resource-intensive for self-hosting"
+    ],
+    "tags": [
+      "#can-be-overwhelming",
+      "#dataset-hub",
+      "#ml-community",
+      "#model-hub",
+      "#open-source",
+      "#some-models-require-expertise"
+    ],
+    "ranking": "N/A",
+    "type": "FREEMIUM"
+  },
+  {
+    "id": "midjourney",
+    "publishDate": "2022-07-12",
+    "name": "Midjourney",
+    "url": "https://www.midjourney.com",
+    "pros": [
+      "Discord based community"
+    ],
+    "cons": [],
+    "tags": [
+      "#artistic-style",
+      "#discord-interface",
+      "#high-quality-images",
+      "#image-generation",
+      "#learning-curve-prompts",
+      "#paid-only"
+    ],
+    "ranking": "N/A",
+    "type": "PAID"
+  },
+  {
+    "id": "stabilityai-dreamstudio",
+    "publishDate": "2022-08-22",
+    "name": "DreamStudio (Stable Diffusion)",
+    "url": "https://dreamstudio.ai",
+    "pros": [
+      "Control over parameters"
+    ],
+    "cons": [
+      "Results vary with prompts"
+    ],
+    "tags": [
+      "#api-access",
+      "#can-be-complex",
+      "#credit-based-freemium",
+      "#image-generation",
+      "#stable-diffusion-model"
+    ],
+    "ranking": "N/A",
+    "type": "FREEMIUM"
+  },
+  {
+    "id": "openai-dalle",
+    "publishDate": "2022-04-06",
+    "name": "OpenAI DALL-E 2/3",
+    "url": "https://openai.com/dall-e-2",
+    "pros": [
+      "Edit and variation features"
+    ],
+    "cons": [
+      "Content policy restrictions"
+    ],
+    "tags": [
+      "#credit-based",
+      "#image-generation",
+      "#integration-chatgpt-plus",
+      "#paid-service",
+      "#photorealistic-images"
+    ],
+    "ranking": "N/A",
+    "type": "PAID"
+  },
+  {
+    "id": "grammarly",
+    "publishDate": "2009-01-01",
+    "name": "Grammarly",
+    "url": "https://www.grammarly.com",
+    "pros": [
+      "Browser and app integrations"
+    ],
+    "cons": [
+      "Internet required"
+    ],
+    "tags": [
+      "#can-be-intrusive",
+      "#grammar-check",
+      "#plagiarism-detection",
+      "#some-advanced-features-paid",
+      "#style-suggestions",
+      "#writing-assistant"
+    ],
+    "ranking": "N/A",
+    "type": "FREEMIUM"
+  },
+  {
+    "id": "notion-ai",
+    "publishDate": "2023-02-16",
+    "name": "Notion AI",
+    "url": "https://www.notion.so/product/ai",
+    "pros": [
+      "Contextual to Notion pages"
+    ],
+    "cons": [
+      "Dependent on Notion platform"
+    ],
+    "tags": [
+      "#part-of-notion-subscription",
+      "#summarization",
+      "#task-automation",
+      "#usage-limits-may-apply",
+      "#workspace-integration",
+      "#writing-assistant"
+    ],
+    "ranking": "N/A",
+    "type": "FREEMIUM"
+  },
+  {
+    "id": "quillbot",
+    "publishDate": "2017-01-01",
+    "name": "QuillBot",
+    "url": "https://quillbot.com",
+    "pros": [
+      "Multiple writing modes"
+    ],
+    "cons": [
+      "Can sometimes over-simplify"
+    ],
+    "tags": [
+      "#best-features-premium",
+      "#character-limits-free",
+      "#citation-generator",
+      "#grammar-check",
+      "#paraphrasing",
+      "#summarizing"
+    ],
+    "ranking": "N/A",
+    "type": "FREEMIUM"
+  },
+  {
+    "id": "canva-ai-magic-studio",
+    "publishDate": "2023-10-01",
+    "name": "Canva (AI Magic Studio Features)",
+    "url": "https://www.canva.com/magic-studio/",
+    "pros": [
+      "User-friendly interface"
+    ],
+    "cons": [
+      "General design tool first, AI secondary"
+    ],
+    "tags": [
+      "#ai-image-generation",
+      "#best-ai-features-pro",
+      "#credit-limits-free",
+      "#design-tool-integration",
+      "#magic-edit-image",
+      "#magic-write"
+    ],
+    "ranking": "N/A",
+    "type": "FREEMIUM"
+  },
+  {
+    "id": "runwayml",
+    "publishDate": "2023-02-01",
+    "name": "RunwayML",
+    "url": "https://runwayml.com",
+    "pros": [
+      "Suite of creative tools"
+    ],
+    "cons": [],
+    "tags": [
+      "#can-be-complex-features",
+      "#credit-based-freemium",
+      "#export-limits-free",
+      "#gen-ai-models",
+      "#image-generation",
+      "#video-editing-ai",
+      "#video-generation"
+    ],
+    "ranking": "N/A",
+    "type": "FREEMIUM"
+  },
+  {
+    "id": "pictory-ai",
+    "publishDate": "2020-01-01",
+    "name": "Pictory AI",
+    "url": "https://pictory.ai",
+    "pros": [
+      "Good for content repurposing"
+    ],
+    "cons": [
+      "Some advanced features paid"
+    ],
+    "tags": [
+      "#ai-voiceovers",
+      "#automatic-visuals",
+      "#stock-media-limitations",
+      "#video-from-text",
+      "#video-from-url",
+      "#watermark-on-free-trial"
+    ],
+    "ranking": "N/A",
+    "type": "FREEMIUM"
+  },
+  {
+    "id": "elevenlabs",
+    "publishDate": "2022-01-01",
+    "name": "ElevenLabs",
+    "url": "https://elevenlabs.io",
+    "pros": [
+      "Realistic and expressive voices"
+    ],
+    "cons": [
+      "Quality varies by voice/language"
+    ],
+    "tags": [
+      "#ai-dubbing",
+      "#ethical-concerns-voice-cloning",
+      "#text-to-speech",
+      "#usage-limits-free-tier",
+      "#voice-cloning",
+      "#voice-generation"
+    ],
+    "ranking": "N/A",
+    "type": "FREEMIUM"
+  },
+  {
+    "id": "suno-ai",
+    "publishDate": "2023-12-01",
+    "name": "Suno AI",
+    "url": "https://suno.ai",
+    "pros": [
+      "Generates vocals and instruments"
+    ],
+    "cons": [
+      "Free version has limits"
+    ],
+    "tags": [
+      "#ethical-concerns-music-copyright",
+      "#limited-control-fine-details",
+      "#music-generation",
+      "#song-creation",
+      "#text-to-music"
+    ],
+    "ranking": "N/A",
+    "type": "FREEMIUM"
+  },
+  {
+    "id": "perplexity-ai",
+    "publishDate": "2022-08-01",
+    "name": "Perplexity AI",
+    "url": "https://www.perplexity.ai",
+    "pros": [
+      "Focus on accuracy"
+    ],
+    "cons": [],
+    "tags": [
+      "#can-be-less-creative-than-chatbots",
+      "#conversational-search",
+      "#information-discovery",
+      "#source-citations",
+      "#web-search-dependent"
+    ],
+    "ranking": "N/A",
+    "type": "FREEMIUM"
+  },
+  {
+    "id": "you-com",
+    "publishDate": "2021-11-01",
+    "name": "You.com",
+    "url": "https://you.com",
+    "pros": [
+      "Privacy-focused options"
+    ],
+    "cons": [],
+    "tags": [
+      "#ai-apps",
+      "#ai-features-evolving",
+      "#conversational-search",
+      "#customizable",
+      "#newer-search-engine"
+    ],
+    "ranking": "N/A",
+    "type": "FREEMIUM"
+  },
+  {
+    "id": "github-copilot",
+    "publishDate": "2021-06-29",
+    "name": "GitHub Copilot",
+    "url": "https://copilot.github.com",
+    "pros": [
+      "Supports many languages"
+    ],
+    "cons": [
+      "Potential for non-idiomatic code"
+    ],
+    "tags": [
+      "#code-completion",
+      "#code-generation",
+      "#code-quality-varies",
+      "#ide-integration",
+      "#paid-subscription",
+      "#requires-internet"
+    ],
+    "ranking": "N/A",
+    "type": "PAID"
+  },
+  {
+    "id": "replit-ai",
+    "publishDate": "2022-10-01",
+    "name": "Replit AI (Ghostwriter/Code Assist)",
+    "url": "https://replit.com/ai",
+    "pros": [],
+    "cons": [
+      "Can have usage limits"
+    ],
+    "tags": [
+      "#code-assistant",
+      "#code-explanation",
+      "#debugging-help",
+      "#ide-integration",
+      "#paid-add-on",
+      "#tied-to-replit-platform"
+    ],
+    "ranking": "N/A",
+    "type": "PAID"
+  },
+  {
+    "id": "descript",
+    "publishDate": "2017-01-01",
+    "name": "Descript",
+    "url": "https://www.descript.com",
+    "pros": [
+      "Text-based editing"
+    ],
+    "cons": [
+      "Resource-intensive"
+    ],
+    "tags": [
+      "#ai-transcription",
+      "#audio-editing",
+      "#overdub-voice-cloning",
+      "#some-features-paid",
+      "#steeper-learning-curve",
+      "#video-editing"
+    ],
+    "ranking": "N/A",
+    "type": "FREEMIUM"
+  },
+  {
+    "id": "otter-ai",
+    "publishDate": "2016-01-01",
+    "name": "Otter.ai",
+    "url": "https://otter.ai",
+    "pros": [
+      "Speaker identification"
+    ],
+    "cons": [
+      "Best for English"
+    ],
+    "tags": [
+      "#ai-transcription",
+      "#limited-free-minutes",
+      "#meeting-summaries",
+      "#real-time-transcription",
+      "#transcription-accuracy-varies"
+    ],
+    "ranking": "N/A",
+    "type": "FREEMIUM"
+  },
+  {
+    "id": "fireflies-ai",
+    "publishDate": "2019-01-01",
+    "name": "Fireflies.ai",
+    "url": "https://fireflies.ai",
+    "pros": [],
+    "cons": [
+      "Relies on good audio quality"
+    ],
+    "tags": [
+      "#accuracy-can-vary",
+      "#ai-meeting-assistant",
+      "#free-tier-limitations",
+      "#integrations-crm-calendar",
+      "#meeting-transcription",
+      "#summarization"
+    ],
+    "ranking": "N/A",
+    "type": "FREEMIUM"
+  },
+  {
+    "id": "synthesia-io",
+    "publishDate": "2017-01-01",
+    "name": "Synthesia",
+    "url": "https://www.synthesia.io",
+    "pros": [
+      "Multilingual support"
+    ],
+    "cons": [],
+    "tags": [
+      "#ai-avatars",
+      "#ai-video-generation",
+      "#avatar-realism-varies",
+      "#can-be-expensive-for-high-volume",
+      "#paid-service",
+      "#text-to-video"
+    ],
+    "ranking": "N/A",
+    "type": "PAID"
+  },
+  {
+    "id": "lumen5",
+    "publishDate": "2017-01-01",
+    "name": "Lumen5",
+    "url": "https://lumen5.com",
+    "pros": [
+      "Stock media library"
+    ],
+    "cons": [
+      "Output quality depends on input text"
+    ],
+    "tags": [
+      "#automated-video-creation",
+      "#blog-to-video",
+      "#limited-customization-free",
+      "#template-driven",
+      "#video-from-text"
+    ],
+    "ranking": "N/A",
+    "type": "FREEMIUM"
+  },
+  {
+    "id": "deepl",
+    "publishDate": "2017-08-28",
+    "name": "DeepL Translator",
+    "url": "https://www.deepl.com/translator",
+    "pros": [
+      "API access"
+    ],
+    "cons": [
+      "Some features paid"
+    ],
+    "tags": [
+      "#ai-translation",
+      "#fewer-languages-than-google",
+      "#high-quality-translation",
+      "#nuance-understanding",
+      "#usage-limits-free"
+    ],
+    "ranking": "N/A",
+    "type": "FREEMIUM"
+  },
+  {
+    "id": "tome-app",
+    "publishDate": "2022-09-01",
+    "name": "Tome",
+    "url": "https://tome.app",
+    "pros": [
+      "Interactive elements"
+    ],
+    "cons": [],
+    "tags": [
+      "#ai-presentation-maker",
+      "#can-require-editing",
+      "#export-options-limited-free",
+      "#generative-text-images",
+      "#newer-tool",
+      "#storytelling-format"
+    ],
+    "ranking": "N/A",
+    "type": "FREEMIUM"
+  },
+  {
+    "id": "lovable-dev",
+    "publishDate": "2024-08-01",
+    "name": "Lovable.dev",
+    "url": "https://lovable.dev",
+    "pros": [
+      "Generation of web apps from natural text",
+      "Native integration with Supabase and GitHub",
+      "Deployment and preview with a click",
+      "Full ownership of generated code",
+      "Visual editor type Figma",
+      "Real-time collaboration (multiplayer)",
+      "Support for custom domains",
+      "Fast for prototypes and MVPs"
+    ],
+    "cons": [
+      "Strict message limits in the free plan",
+      "Limited complexity for very advanced cases",
+      "May require external services for hosting or advanced databases",
+      "Costs may increase with intensive use"
+    ],
+    "tags": [
+      "#code-generation",
+      "#full-stack",
+      "#prototyping",
+      "#deployment",
+      "#github-integration",
+      "#supabase-integration",
+      "#visual-editor",
+      "#no-code",
+      "#mvp",
+      "#team-collaboration"
+    ],
+    "ranking": "N/A",
+    "type": "FREEMIUM",
+    "pricing": {
+      "free": "5 messages/day, unlimited public projects, deployment and GitHub sync",
+      "starter": "$20/month, 100 credits, private projects, custom domains",
+      "pro": "$50/month, 250 credits, for small teams",
+      "scale": "$100+/month, 500+ credits, for large teams",
+      "enterprise": "Custom pricing, SSO, dedicated support"
+    }
+  },
+  {
+    "id": "flux-playground",
+    "publishDate": "2025-05-29",
+    "name": "FLUX Playground (BFL.AI)",
+    "url": "https://playground.bfl.ai/image/generate",
+    "pros": [
+      "Image generation and editing with text and reference image",
+      "Advanced models (FLUX.1 Kontext pro/max) with character and style preservation",
+      "Local and step-by-step editing, with low latency",
+      "Realistic and competitive typography",
+      "200 credits for free registration",
+      "Easy-to-use web interface, no technical integration required",
+      "Support for multiple partners and public API"
+    ],
+    "cons": [
+      "May generate visual artifacts after many edits",
+      "Limited understanding of languages other than English",
+      "Some complex instructions may not be followed faithfully",
+      "Requires credits for intensive use"
+    ],
+    "tags": [
+      "#image-generation",
+      "#image-editing",
+      "#text-to-image",
+      "#in-context-editing",
+      "#photorealism",
+      "#ai-art",
+      "#api-available",
+      "#credit-based",
+      "#multimodal"
+    ],
+    "ranking": "N/A",
+    "type": "FREEMIUM",
+    "pricing": {
+      "free": "200 credits for free registration",
+      "paid": "$10 for 1,000 credits (1 pro image = 4 credits)",
+      "api": "Competitive pricing per image based on model: FLUX.1 [pro] 5 cts/img, FLUX1.1 [pro] 4 cts/img"
+    }
+  },
+  {
+    "id": "ideogram-ai",
+    "publishDate": "2024-08-01",
+    "name": "Ideogram AI",
+    "url": "https://ideogram.ai",
+    "pros": [
+      "Image generation with integrated and legible text",
+      "Variety of styles: realistic, 3D, anime, etc.",
+      "Magic Prompt tool for automatically improving prompts",
+      "Remix for modifying existing images",
+      "Color palette and style control",
+      "API available for integration in apps",
+      "Mobile app for iOS (Android coming soon)",
+      "Easy-to-use interface, ideal for creators and designers"
+    ],
+    "cons": [
+      "Occasional text generation errors (missing letters, etc.)",
+      "Free plan is limited in quality and speed",
+      "Credit system may be confusing for some users",
+      "Mobile app only available on iOS for now"
+    ],
+    "tags": [
+      "#image-generation",
+      "#text-in-image",
+      "#ai-art",
+      "#remix",
+      "#magic-prompt",
+      "#api-available",
+      "#mobile-app",
+      "#credit-based"
+    ],
+    "ranking": "N/A",
+    "type": "FREEMIUM",
+    "pricing": {
+      "free": "10 slow credits/day (up to 40 images), JPG compressed, community gallery",
+      "basic": "$8/month, 400 priority credits/month, PNG high quality, Magic Fill & Extend",
+      "plus": "$20/month, 1,000 priority credits/month, private generation, personalized palettes",
+      "pro": "$60/month, 3,000 priority credits/month, massive generation, unlimited slow"
+    }
+  },
+  {
+    "id": "n8n",
+    "publishDate": "2019-10-01",
+    "name": "n8n",
+    "url": "https://n8n.io",
+    "pros": [
+      "self-hosting n8n with docker",
+      "Complex workflow automation without code",
+      "Over 400 pre-built integrations",
+      "Easy-to-use drag-and-drop visual editor",
+      "Support for custom code (JavaScript, Python)",
+      "Self-hosting and cloud options",
+      "Open source and extensible",
+      "Advanced credential and user management",
+      "Large community and extensive documentation"
+    ],
+    "cons": [
+      "Learning curve for advanced workflows",
+      "Performance may be affected with large volumes in the cloud",
+      "Some advanced features only in paid plans",
+      "The interface can be overwhelming for beginners"
+    ],
+    "tags": [
+      "#workflow-automation",
+      "#no-code",
+      "#open-source",
+      "#integration",
+      "#self-hosting",
+      "#cloud",
+      "#api",
+      "#data-transformation",
+      "#ai-agent"
+    ],
+    "ranking": "N/A",
+    "type": "FREEMIUM",
+    "pricing": {
+      "free": "Self-hosted unlimited, 5 active workflows and 2,500 executions/month in cloud",
+      "starter": "$20/month, 5 active workflows, 2,500 executions/month, unlimited users",
+      "pro": "$50/month, 15 active workflows, 10,000 executions/month, advanced features",
+      "enterprise": "Custom, unlimited, dedicated support, SSO, full control"
+    }
+  },
+  {
+    "id": "hostinger-horizons",
+    "publishDate": "2025-03-04",
+    "name": "Hostinger Horizons",
+    "url": "https://horizons.hostinger.com/",
+    "pros": [
+      "No coding required to build web apps and websites",
+      "AI-powered: chat to build, edit, and deploy",
+      "One-click deployment with hosting, domain, and email included",
+      "Supports 80+ languages and voice/image input",
+      "Visual editor and real-time preview",
+      "Full code ownership and export",
+      "24/7 multilingual support",
+      "Integrates with Stripe, Supabase, and more",
+      "30-day money-back guarantee"
+    ],
+    "cons": [
+      "Limited deep integrations (for now)",
+      "Customization relies on AI refinement, not manual edits",
+      "Best for MVPs and simple apps, not complex systems yet",
+      "Message-based pricing may not suit all users"
+    ],
+    "tags": [
+      "#no-code",
+      "#ai-app-builder",
+      "#web-app",
+      "#website-builder",
+      "#one-click-deploy",
+      "#hosting-included",
+      "#multilingual",
+      "#mvp",
+      "#startup-tools"
+    ],
+    "ranking": "N/A",
+    "type": "FREEMIUM",
+    "pricing": {
+      "explorer": "$9.99/month, 50 messages/month, 50 projects, hosting included",
+      "starter": "$19.99/month, 100 messages/month, 50 projects, hosting included",
+      "hobbyist": "$49.99/month, 250 messages/month, 50 projects, hosting included",
+      "hustler": "$99.99/month, 500 messages/month, 50 projects, hosting included"
+    }
+  },
+  {
+    "id": "deep-live-cam",
+    "publishDate": "2025-05-04",
+    "name": "Deep Live Cam",
+    "url": "https://deeplivecam.net/",
+    "pros": [
+      "Real-time face swapping with a single image",
+      "One-click video deepfake generation",
+      "Cross-platform support: CPU, NVIDIA CUDA, Apple Silicon, DirectML, OpenVINO",
+      "Open-source and completely free",
+      "Local processing with no personal data collection",
+      "Built-in controls to prevent inappropriate content",
+      "Active community providing ongoing support and improvements",
+      "User-friendly interface for all experience levels",
+      "Optimized for fast performance, especially on NVIDIA GPUs with CUDA"
+    ],
+    "cons": [
+      "Requires technical knowledge for installation and setup",
+      "Potential ethical and legal implications of using deepfakes",
+      "Risk of malicious use for identity theft and fraud",
+      "Depends on powerful hardware for optimal performance"
+    ],
+    "tags": [
+      "#deepfake",
+      "#face-swap",
+      "#AI",
+      "#open-source",
+      "#local-processing",
+      "#cross-platform",
+      "#video",
+      "#streaming",
+      "#security"
+    ],
+    "ranking": "N/A",
+    "type": "FREE",
+    "pricing": {
+      "free": "Completely free and open-source"
+    }
+  },
+  {
+    "id": "flux-kontext",
+    "publishDate": "2025-05-29",
+    "name": "FLUX Kontext",
+    "url": "https://fal.ai/flux-kontext",
+    "pros": [
+      "Context-aware image generation and editing (text + image input)",
+      "Advanced local editing and style transfer",
+      "Maintains character and object consistency across edits",
+      "Fast, interactive, and iterative workflow",
+      "Supports multimodal input: text, sketches, reference images",
+      "Professional quality output and photorealism",
+      "API available for integration",
+      "Enterprise-grade security and privacy",
+      "Open-weight model (dev) for research and customization"
+    ],
+    "cons": [
+      "May generate visual artifacts after many iterative edits",
+      "Occasional prompt misinterpretation in complex scenarios",
+      "Video generation not supported (image only)",
+      "Some advanced features require API or partner access"
+    ],
+    "tags": [
+      "#image-generation",
+      "#context-aware",
+      "#in-context-editing",
+      "#ai-art",
+      "#style-transfer",
+      "#api-available",
+      "#multimodal",
+      "#professional-quality",
+      "#open-weight"
+    ],
+    "ranking": "N/A",
+    "type": "FREEMIUM",
+    "pricing": {
+      "free": "Free online demo and limited usage via partner platforms",
+      "pro": "API and partner access, pay-per-use or subscription (see fal.ai for details)",
+      "dev": "Open-weight model available for research and self-hosting (private beta)"
+    }
+  },
+  {
+    "id": "minimax-api-platform",
+    "publishDate": "2025-01-04",
+    "name": "MiniMax API Platform",
+    "url": "https://www.agent.minimax.io/",
+    "pros": [
+      "Comprehensive suite of AI models across text, image, video, audio, and music",
+      "Competitive pricing with pay-as-you-go model and free credits upon sign-up",
+      "Supports rapid voice cloning with as little as 5 seconds of audio",
+      "High-performance models optimized for cost efficiency",
+      "Cross-platform compatibility with various hardware configurations",
+      "Open-source models with commercial use licenses",
+      "Active community and ongoing support",
+      "User-friendly interface suitable for all experience levels"
+    ],
+    "cons": [
+      "Requires technical knowledge for installation and setup",
+      "Potential ethical and legal implications in the use of deepfakes",
+      "Risk of misuse for identity theft and fraud",
+      "Dependence on powerful hardware for optimal performance"
+    ],
+    "tags": [
+      "#AI",
+      "#multimodal",
+      "#text-generation",
+      "#image-generation",
+      "#video-generation",
+      "#audio-generation",
+      "#music-generation",
+      "#voice-cloning",
+      "#open-source",
+      "#API"
+    ],
+    "ranking": "N/A",
+    "type": "FREEMIUM",
+    "pricing": {
+      "chat_completion_api": {
+        "MiniMax-Text-01": {
+          "input": "$0.20 per 1M tokens",
+          "output": "$1.10 per 1M tokens"
+        },
+        "abab6.5s": {
+          "input_output": "$0.20 per 1M tokens"
+        }
+      },
+      "text_to_speech_api": {
+        "speech-02-hd / speech-01-hd": "$100 per 1M characters (limited-time $50)",
+        "speech-02-turbo / speech-01-turbo": "$50 per 1M characters (limited-time $30)"
+      },
+      "voice_cloning": {
+        "rapid_voice_cloning": "$15 per voice (limited-time $3)",
+        "hi_definition_voice_cloning": "$3000 per clone"
+      },
+      "video_generation_api": {
+        "T2V-01, I2V-01, I2V-01-live": "$0.43 per 6-second video clip",
+        "S2V-01": "$0.65 per 6-second video clip"
+      },
+      "music_generation_api": {
+        "Music-01": "$0.03 per up to 60-second music"
+      },
+      "image_generation_api": {
+        "image-01": "$0.0035 per image"
+      }
+    }
+  },
+  {
+    "id": "onlook",
+    "publishDate": "2024-05-28",
+    "name": "Onlook",
+    "url": "https://onlook.com",
+    "pros": [
+      "Open-source visual-first code editor for React apps",
+      "AI-powered design, code, and prototyping in Next.js + TailwindCSS",
+      "Figma-like UI for real-time visual editing and preview",
+      "Start from text, image, Figma, or GitHub repo",
+      "Drag-and-drop layout and direct DOM manipulation",
+      "Real-time team collaboration and commenting",
+      "Supports custom domains and instant deployment",
+      "Integrates with Supabase, Drizzle, and more",
+      "Active community and Apache-2.0 license"
+    ],
+    "cons": [
+      "Still under active development (web version in preview)",
+      "Best experience with Next.js + TailwindCSS projects",
+      "Some advanced features may require technical knowledge",
+      "Limited to React/Next.js stack for now"
+    ],
+    "tags": [
+      "#open-source",
+      "#visual-editor",
+      "#ai-code-generation",
+      "#react",
+      "#nextjs",
+      "#tailwindcss",
+      "#prototyping",
+      "#figma-alternative",
+      "#team-collaboration",
+      "#low-code"
+    ],
+    "ranking": "N/A",
+    "type": "FREE",
+    "pricing": {
+      "free": "Completely free and open-source (Apache-2.0 license)"
+    }
+  },
+  {
+    "id": "napkin-ai",
+    "publishDate": "2022-08-17",
+    "name": "Napkin AI",
+    "url": "https://www.napkin.ai/",
+    "pros": [
+      "Instantly turns text into professional visuals (diagrams, charts, mind maps, etc.)",
+      "No design skills or prompting required",
+      "Fully editable visuals with icons, connectors, colors, and fonts",
+      "Exports to PPT, PNG, PDF, SVG; easy sharing and embedding",
+      "Supports 60+ languages for visual generation",
+      "Team collaboration with real-time editing and comments",
+      "Smart AI suggestions for best visual format",
+      "User-friendly interface and fast processing",
+      "Free plan available; generous beta access to Pro features"
+    ],
+    "cons": [
+      "Limited customization for advanced design needs",
+      "Occasional AI misinterpretation of context",
+      "Editing and generation only on desktop (mobile view only)",
+      "Some advanced features require paid plans"
+    ],
+    "tags": [
+      "#text-to-visual",
+      "#diagramming",
+      "#ai-visualization",
+      "#flowcharts",
+      "#mindmaps",
+      "#infographics",
+      "#team-collaboration",
+      "#content-creation",
+      "#presentation-tools"
+    ],
+    "ranking": "N/A",
+    "type": "FREEMIUM",
+    "pricing": {
+      "free": "500 AI credits/week, unlimited editing, PNG/PDF export, Napkin branding",
+      "plus": "$9/user/month, 10,000 AI credits/month, PPT/SVG export, custom styles, no branding, team management",
+      "pro": "$22/user/month, 30,000 AI credits/month, exclusive designs, unlimited custom styles, font uploads, team management, credit top-ups"
+    }
+  },
+  {
+    "id": "gamma-app",
+    "publishDate": "2021-09-01",
+    "name": "Gamma",
+    "url": "https://gamma.app",
+    "pros": [
+      "AI-powered creation of presentations, documents, and web pages",
+      "User-friendly interface, easy to navigate",
+      "Saves time on slide and content creation",
+      "One-click restyling and polish for professional results",
+      "Flexible templates and brand-aligned design options",
+      "Real-time collaboration and commenting",
+      "Supports embedding videos, charts, and spreadsheets",
+      "Built-in analytics to track engagement",
+      "Multi-device compatibility and mobile-friendly content",
+      "Export to PDF and PowerPoint (PPT)"
+    ],
+    "cons": [
+      "Limited variety in theme options",
+      "Advanced tools have a learning curve",
+      "Occasional lag with large projects",
+      "No offline editing feature",
+      "No direct export to Google Slides",
+      "Some features require paid plans",
+      "Basic themes and limited animation options"
+    ],
+    "tags": [
+      "#presentation-maker",
+      "#ai-content-generation",
+      "#webpage-builder",
+      "#real-time-collaboration",
+      "#analytics",
+      "#templates",
+      "#no-code",
+      "#export-options",
+      "#team-collaboration"
+    ],
+    "ranking": "N/A",
+    "type": "FREEMIUM",
+    "pricing": {
+      "free": "400 AI credits at signup, basic features, unlimited users, export to PDF/PPT, Gamma branding",
+      "plus": "$10/user/month, unlimited AI use, removes Gamma branding, priority support, 400 credits/month",
+      "pro": "$20/user/month, advanced AI, custom domains, detailed analytics, up to 30 slides at once, custom fonts, unlimited AI, all Plus features"
+    }
+  }
+]

@@ -1,0 +1,64 @@
+/* AIToolsTable.module.css */
+.tableContainer {
+    margin: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.tableContainer table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    box-shadow: 0 2px 3px rgba(0,0,0,0.1);
+}
+
+.tableContainer th,
+.tableContainer td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+.tableContainer th {
+    background-color: #f2f2f2;
+    color: #333;
+}
+
+.tableContainer tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.tableContainer tr:hover {
+    background-color: #f1f1f1;
+}
+
+.tableContainer a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.tableContainer a:hover {
+    text-decoration: underline;
+}
+
+.paginationControls {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.paginationControls button {
+    padding: 8px 16px;
+    margin: 0 5px;
+    border: 1px solid #ddd;
+    background-color: #f2f2f2;
+    cursor: pointer;
+}
+
+.paginationControls button:disabled {
+    background-color: #e9e9e9;
+    cursor: not-allowed;
+    color: #aaa;
+}
+
+.paginationControls span {
+    margin: 0 10px;
+}
