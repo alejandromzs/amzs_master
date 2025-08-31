@@ -23,6 +23,20 @@ npm run serve
 
 Then open [http://localhost:5500/index.html](http://localhost:5500/index.html) in your browser.
 
+## 🚀 Deploy to Vercel
+
+To deploy this monorepo to Vercel:
+
+1. **Connect your repository** to Vercel
+2. **Use these settings**:
+   - **Framework Preset**: Other
+   - **Build Command**: `npm run build:all`
+   - **Output Directory**: `.` (root)
+   - **Install Command**: `npm run install:all`
+3. **Deploy** - Vercel will automatically detect the `vercel.json` configuration
+
+The `vercel.json` file is already configured to properly serve your monorepo structure.
+
 ## Sub-projects
 - The sub-projects are located in the `subprojects` directory. Each sub-project is intended to be somewhat independent, allowing for different technologies and development workflows.
 

@@ -1,0 +1,30 @@
+{
+  "version": 2,
+  "buildCommand": "npm run build:all",
+  "outputDirectory": ".",
+  "installCommand": "npm run install:all",
+  "routes": [
+    {
+      "src": "/",
+      "dest": "/index.html"
+    },
+    {
+      "src": "/subprojects/ai-tools/build/(.*)",
+      "dest": "/subprojects/ai-tools/build/$1"
+    },
+    {
+      "src": "/subprojects/backend-services/(.*)",
+      "dest": "/subprojects/backend-services/$1"
+    },
+    {
+      "src": "/subprojects/vue-ui/(.*)",
+      "dest": "/subprojects/vue-ui/$1"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "/$1"
+    }
+  ],
+  "functions": {},
+  "env": {}
+}
