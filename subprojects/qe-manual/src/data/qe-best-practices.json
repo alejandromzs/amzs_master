@@ -1,0 +1,16 @@
+[
+  {
+    "id": 1,
+    "priority": "High",
+    "category": "Test Management",
+    "subCategory": "Shift Left",
+    "description": "Shift left QE efforts by creating temporal slack channels per each ticket when they are started to be taken by the developer. It allows the QEs to be aware, review the document, create test plan, and/or update automation tests with time ahead before the feature is ready for QE. So it allows a faster testing"
+  },
+  {
+    "id": 2,
+    "priority": "High",
+    "category": "Test Planning",
+    "subCategory": "Test Cases",
+    "description": "For better maintenance, save the TCs into folders as screens in your app. For new Projects, use Test Executions calling these TCs. If new ones need to be created, save then into a projects folder and when the project is completed, move the TCs to the folders representing screens"
+  }
+]
