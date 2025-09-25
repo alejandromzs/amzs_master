@@ -1,0 +1,34 @@
+# Dependencies
+node_modules/
+
+# Cypress specific
+cypress/screenshots/
+cypress/videos/
+cypress/downloads/
+cypress/fixtures/downloads/
+
+# Cypress test results
+cypress/results/
+mochawesome-report/
+mochawesome.json
+
+# Environment files
+.env
+.env.local
+.env.test
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/

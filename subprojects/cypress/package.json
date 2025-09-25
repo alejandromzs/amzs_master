@@ -1,0 +1,21 @@
+{
+  "name": "cypress",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "cypress:open": "cypress open",
+    "cypress:run": "cypress run",
+    "cypress:run:headed": "cypress run --headed",
+    "test": "cypress run",
+    "test:headed": "cypress run --headed",
+    "test:open": "cypress open"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "cypress": "^15.2.0",
+    "typescript": "^5.0.0",
+    "@types/node": "^20.0.0"
+  }
+}
